@@ -11,3 +11,23 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+article {
+  margin-bottom: 16px;
+}
+
+.restaurant-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 26px;
+}
+
+.create-container {
+  width: 500px;
+}
+
+.review-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+}

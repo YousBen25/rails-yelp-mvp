@@ -9,7 +9,10 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="/"><strong>Yelp</strong> share your review with the Yelpers</a>
+      <%= link_to "+ Add restaurant", new_restaurant_path  %>
+    </nav>
   <body>
     <%= yield %>
   </body>

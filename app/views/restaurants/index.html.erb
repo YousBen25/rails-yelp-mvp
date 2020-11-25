@@ -1,0 +1,14 @@
+<div class="restaurant-container">
+  <div class="row justify-content-center">
+    <div class="col-sm-8 col-sm-offset-2 mx-auto justify-content-center">
+      <% @restaurants.each do |restaurant| %>
+        <article>
+          <%= link_to restaurant_path(restaurant) do %>
+            <h2><%=restaurant.name%></h2>
+          <% end %>
+          <%=restaurant.category%>
+        </article>
+      <% end %>
+    </div>
+  </div>
+</div>
